@@ -1,0 +1,48 @@
+/* Estilos gerais da aplicação */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #3a0ca3, #000000); /* Fundo com gradiente roxo para preto */
+    -fx-font-family: "dark", sans-serif;
+}
+.body {
+    height: 200px;
+}
+/* Estilo do título */
+.label {
+    -fx-text-fill: #ffffff; /* Texto branco para contraste */
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+/* Estilo dos botões */
+.button {
+    -fx-background-color: #7209b7; /* Roxo escuro */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #f72585; /* Borda rosa para destaque */
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+/* Efeito hover nos botões */
+.button:hover {
+    -fx-background-color: #560bad; /* Roxo mais intenso */
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Efeito quando pressionado */
+.button:pressed {
+    -fx-background-color: #3f0370; /* Tom mais escuro ao clicar */
+}
+
+/* Layout do VBox */
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+    -fx-padding: 20px;
+}
